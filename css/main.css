@@ -1,0 +1,28 @@
+.jumbotron{
+	text-align: center;
+}
+body{
+	line-height: 1.5;
+	color: #333;
+}
+*{
+	box-sizing: border-box;
+}
+
+@media (min-width: 768px){
+	.container{max-width: 730px;}
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+p{
+	padding-bottom: 10px;
+}
+
+footer{
+	padding-bottom: 30px;
+	color: #949494;
+}
